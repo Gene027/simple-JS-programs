@@ -1,0 +1,41 @@
+.timerBtn{
+    width: 100px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+#timeDisplay{
+    font-size: 75px;
+    color: #880a06;
+    font-family: consolas, monospace;
+}
+#timeContainer{
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #222222;
+}
+.duration{
+    width: 45px;
+    height: 20px;
+}
+#setBtn{
+    width: 45px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+
+#announcement{
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(180, 5, 5);
+    font-family: consolas, monospace;
+}

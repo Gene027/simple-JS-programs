@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+hr{
+    width: 500px;
+}
+
+#errors {
+    color: crimson;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightcyan;
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgb(20, 20, 20);
+    margin: 2px;    /*adds spacing to number inputs*/
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number_selected {
+    background-color: darkgray;
+}
+
+#digits {
+    width: 450px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile_start {
+    background-color: whitesmoke;
+}
+
+.horizontal_line {
+    border-bottom: 1px solid black;
+}
+.vertical_line {
+    border-right: 1px solid black;
+}
